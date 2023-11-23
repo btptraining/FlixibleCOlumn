@@ -1,7 +1,11 @@
-<mvc:View controllerName="com.sapui5.zpurchasemd09.controller.FlexibleColumnLayout" xmlns:fcl='sap.f'
-    xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+<mvc:View controllerName="com.sapui5.zpurchasemd09.controller.Main" height="100%"
+    xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.f" displayBlock="true"
     xmlns="sap.m">
-    <fcl:FlexibleColumnLayout id="fcl">
-    </fcl:FlexibleColumnLayout>
+    <f:DynamicPage id="page">     
+    <f:header>
+    <f:DynamicPageHeader >
+    <Title text="FCL"></Title>
+    </f:DynamicPageHeader>
+    </f:header>
+    </f:DynamicPage>
 </mvc:View>
